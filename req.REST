@@ -1,0 +1,29 @@
+POST http://localhost:5500/api/item HTTP/1.1
+Content-Type: application/json
+
+
+{
+    "item":"this is the first todo list",
+     "isCompleted":"false"
+    }
+
+###
+GET  http://localhost:5500/api/item HTTP/1.1
+Content-Type: application/json
+
+
+###
+PUT http://localhost:5500/api/item/62e1be24c333f3792968aaba
+Content-Type: application/json
+
+
+{
+    "item":"this is the first -last todo list",
+     "isCompleted":false
+    }
+
+###
+DELETE  http://localhost:5500/api/item/62e1893547ec02cc105a614f 
+Content-Type: application/json
+
+

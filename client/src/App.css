@@ -1,0 +1,146 @@
+body {
+  background-color: #171717;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+h1 {
+  color: #ffffff;
+  font-size: 24px;
+  text-align: center;
+  font-weight: 500;
+}
+
+label {
+  color: #ffffff;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
+  margin-left: 2rem;
+  font-weight: 500;
+}
+input {
+  margin-top: 3rem;
+  height: 2rem;
+  width: 50%;
+  border-radius: 5px;
+  background-color: #5c5c5c;
+  outline: none;
+  border: none;
+}
+input[type="text"] {
+  color: #ffffff;
+  padding-left: 10px;
+}
+input[type="text"]::placeholder {
+  color: #ffffff;
+  font-weight: 100;
+}
+button {
+  margin-left: 2.5rem;
+  height: 2rem;
+  background-color: #c620a7;
+  border-radius: 5px;
+  color: #ffffff;
+  width: 8rem;
+  outline: none;
+  border: none;
+  cursor: pointer;
+}
+
+h2 {
+  color: #ffffff;
+  font-size: 18px;
+  margin-top: 3.5rem;
+  font-weight: 500;
+  margin-left: 2rem;
+}
+
+.text {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  margin-left: 1rem;
+  gap: 2.5rem;
+}
+
+.list-item {
+  color: #ffffff;
+  display: flex;
+  position: relative;
+}
+.list-item span {
+  margin-top: 1rem;
+}
+img {
+  height: 24px;
+  position: relative;
+  left: 22.5em;
+  top: 1rem;
+}
+.p-item {
+  color: #ffffff;
+  background-color: #2f2f2f;
+  height: 125px;
+  width: 325px;
+  border-radius: 10px;
+
+  margin-left: 0.5rem;
+}
+.incomplete {
+  filter: drop-shadow(0px 0px 16px #2f2f2f);
+  opacity: 0.8;
+}
+
+.complete {
+  color: #ffffff;
+  background-color: #202020;
+  height: 125px;
+  width: 325px;
+  border-radius: 10px;
+  border: 1px solid #7ab530;
+  margin-left: 0.5rem;
+}
+
+.p-item p {
+  margin-left: 1.5rem;
+}
+
+.underline {
+  border: 0;
+  position: relative;
+  border-bottom: 1px solid #5c5c5c;
+}
+.end-part {
+  display: flex;
+  flex-direction: row;
+}
+.complete .end-part button {
+  margin-left: 1.25rem;
+}
+.end-part button {
+  margin: 0;
+  margin-top: 1rem;
+  margin-left: 1.5rem;
+}
+
+.mark {
+  width: 300px;
+}
+.delete {
+  outline: none;
+  border: none;
+  background-color: transparent;
+  font-size: 1rem;
+  color: #afafaf;
+}
+
+.complete-task {
+  outline: none;
+
+  color: #afafaf;
+  padding: 0;
+  background-color: transparent;
+}
